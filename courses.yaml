@@ -1,0 +1,105 @@
+
+intro_css2:
+  title: "Computational Social Sciences"
+  semester: "Summer"
+  institution: "SciencesPo Paris"
+  year: 2025
+  syllabus: "documents/css_syllabus.pdf"
+  materials: "https://github.com/luissattelmayer/intro-css"
+  language: "French"
+  hours: 24 
+  level: "PhD students + Master"
+  description: "This course is an introduction to computational social sciences covering web scraping, how to convert texts into numbers, supervised and unsupervised machine learning as well as an introduction to LLMs."
+
+intro_css:
+  title: "Computational Social Sciences"
+  semester: "Winter"
+  institution: "SciencesPo Paris"
+  year: 2025
+  syllabus: "documents/css_syllabus.pdf"
+  materials: "https://github.com/luissattelmayer/intro-css"
+  language: "French"
+  hours: 24 
+  level: "PhD students + Master"
+  description: "This course is an introduction to computational social sciences covering web scraping, how to convert texts into numbers, supervised and unsupervised machine learning as well as an introduction to LLMs."
+
+
+intro_quant3:
+  title: "Quantitative Methods II in RStudio"
+  semester: "Spring"
+  institution: "SciencesPo Paris"
+  year: 2025
+  language: "English"
+# syllabus: "documents/intro_stat_syllabus.pdf"
+  materials: "https://luissattelmayer.github.io/quant-2025/"
+  hours: 2 x 12 (24)
+  level: "Master"
+  description: "This course teaches student about applied statistics for social scientists in RStudio. It covers OLS, Logistic, and Multinomial Regressions, as well as Diff-in-Diff, RDD, and Time Series modeling. It complements Jan Rovny's lecture on Quantitative Methods II."
+
+intro_quant2:
+  title: "Quantitative Methods II in RStudio"
+  semester: "Spring"
+  institution: "SciencesPo Paris"
+  year: 2024
+  language: "English"
+# syllabus: "documents/intro_stat_syllabus.pdf"
+  materials: "https://luissattelmayer.github.io/quant-2025/"
+  hours: 2 x 12 (24)
+  level: "Master"
+  description: "This course teaches student about applied statistics for social scientists in RStudio. It covers OLS, Logistic, and Multinomial Regressions, as well as Diff-in-Diff, RDD, and Time Series modeling. It complements Jan Rovny's lecture on Quantitative Methods II."
+
+intro_quant:
+  title: "Quantitative Methods II in RStudio"
+  semester: "Spring"
+  institution: "SciencesPo Paris"
+  year: 2023
+  language: "English"
+# syllabus: "documents/intro_stat_syllabus.pdf"
+  materials: "https://luissattelmayer.github.io/quant-2025/"
+  hours: 2 x 12 (24)
+  level: "Master"
+  description: "This course teaches student about applied statistics for social scientists in RStudio. It covers OLS, Logistic, and Multinomial Regressions, as well as Diff-in-Diff, RDD, and Time Series modeling. It complements Jan Rovny's lecture on Quantitative Methods II."
+
+comp_pol: 
+  title: "Comparative Politics"
+  semester: "Fall"
+  institution: "SciencesPo Paris"
+  year: 2023
+  syllabus: "documents/comp-pol-2023-syllabus.pdf"
+  language: "English"
+  hours: 2 x 24 (48)
+  level: "Bachelor"
+  description: "This course is a seminar designed to help students discuss important readings, concepts, and methods in comparative politics and assist them in designing a final paper based on comparative methods."
+  
+  
+intro_polsci2:
+  title: "Introduction à la science politique"
+  semester: "Spring"
+  institution: "SciencesPo Paris, Nancy Campus"
+  year: 2024
+  syllabus: "documents/syllabus-intro-pol-2024.pdf"
+  language: "French"  # Language of the class
+  hours: 24  # Number of hours per week
+  level: "Bachelor"  # Level of the course
+  description: "This course is a seminar (TD) designed to introduce first-year students to the main concepts, authors, and subfields in political science"
+
+intro_polsci:
+  title: "Introduction to Political Science"
+  semester: "Spring"
+  institution: "SciencesPo Paris, Nancy Campus"
+  year: 2023
+  syllabus: "documents/syllabus-intro-pol-2024.pdf"
+  language: "English"  # Language of the class
+  hours: 24  # Number of hours per week
+  level: "Bachelor"  # Level of the course
+  description: "This course is a seminar (TD) designed to introduce first-year students to the main concepts, authors, and subfields in political science"
+
+ta_comp_pol:
+  title: "Social Inequalities in Western Democracies (Teaching assistant)"
+  semester: "Fall"
+  institution: "SciencesPo Paris"
+  year: 2022
+  language: "English"  # Language of the class
+  hours: 16  # Number of hours per week
+  level: "Master"  # Level of the course
+  description: "TAing for Carlo Barone."

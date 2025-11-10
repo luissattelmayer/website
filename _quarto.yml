@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - "*.html"
+
+website:
+  title: "Luis Sattelmayer"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: research.qmd
+        text: Research
+      - href: teaching.qmd
+        text: Teaching
+      - href: data.qmd
+        text: Data
+      - href: documents/CV_Luis_Sattelmayer.pdf
+        text: CV
+
+    # right:
+    # - icon: github
+    #   href: https://github.com/luissattelmayer
+    # - icon: envelope
+    #   href: luis.sattelmayer@sciencespo.fr
+    # - icon: linkedin
+    #   href: https://www.linkedin.com/in/luis-sattelmayer-8a293722b/
+    # - text: "{{< fa brands bluesky >}}"
+    #   href: https://bsky.app/profile/luissattelmayer.bsky.social
+
+format:
+  html:
+    theme: simplex
+    css: styles.css
+    toc: true
+

@@ -1,0 +1,88 @@
+---
+title: "Teaching"
+echo: false
+jupyter: python3
+section-divs: false
+keep-md: true
+format: html
+---
+
+Over the past few years, I have had the pleasure of teaching a variety of courses at Sciences Po Paris, both substantive and methodological, for Bachelor's and Master's students, as well as at the PhD level in political science and sociology.
+
+```{python}
+import yaml
+from IPython.display import display, Markdown, HTML
+
+# Function to format a list of authors
+def readable_list(_s):
+    if len(_s) < 3:
+        return ' and '.join(map(str, _s))
+    *a, b = _s
+    return f"{', '.join(map(str, a))}, and {b}"
+
+def button(url, str, icon):
+    icon_base = icon[:2]
+    return f"""<a class="btn btn-outline-dark btn-sm", href="{url}" target="_blank" rel="noopener noreferrer">
+        <i class="{icon_base} {icon}" role='img' aria-label='{str}'></i>
+        {str}
+    </a>"""
+
+# Load the YAML data for courses
+yaml_data = yaml.safe_load(open("courses.yaml"))
+
+courses_strs = {"teaching": {}}
+
+# Iterate through the YAML data to generate the formatted strings
+for _, data in yaml_data.items():
+    title_str = data["title"]
+    year_str = data["year"]
+    semester_str = data["semester"]
+    institution_str = data["institution"]
+    language_str = data.get("language", "Not specified")  # Language of the class
+    hours_str = data.get("hours", "Not specified")  # Number of hours per week
+    level_str = data.get("level", "Not specified")  # Level of the course
+    description_str = data["description"]
+    
+    buttons = []
+    syllabus = data.get("syllabus")  # Local path for syllabus
+    materials = data.get("materials")  # URL for course materials
+    
+    # Generate buttons for syllabus and course materials
+    if syllabus:
+        buttons.append(button(syllabus, "Syllabus", "bi-book"))
+    if materials:
+        buttons.append(button(materials, "Course Materials", "bi-file-earmark-text"))
+    
+    # Display the title in bold and other information
+    course_str = f'<strong>{title_str}</strong> ({semester_str} {year_str}) at <em>{institution_str}</em>'
+    
+    # Adding the new fields (language, hours, level)
+    course_str += f"<br><strong>Language:</strong> {language_str} | <strong>Hours:</strong> {hours_str} | <strong>Level:</strong> {level_str}"
+    
+    # Adding a line break before the description
+    course_str += f"<br><strong>Description:</strong><br>{description_str}"
+    
+    if year_str not in courses_strs["teaching"]:
+        courses_strs["teaching"][year_str] = []
+    
+    # Add the final course information to the list
+    courses_strs["teaching"][year_str].append(
+        "<li class='list-group-item'>" + course_str + "<br>" + " ".join(buttons) + "</li>"
+    )
+
+```
+
+```{python}
+
+#| label: "teaching-courses"
+#| id: "teaching-courses"
+#| output: asis
+# Display teaching courses
+for year in sorted(courses_strs["teaching"].keys(), reverse=True):
+    display(Markdown(f"### {year}" + "{#" + f"teaching-{year}" + "}"))
+    display(HTML(
+        "<ul class='list-group list-group-flush'>" + '\n'.join(courses_strs["teaching"][year]) + "</ul>"
+    ))
+
+
+```

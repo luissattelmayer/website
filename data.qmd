@@ -1,0 +1,75 @@
+---
+title: "Data"
+echo: false
+jupyter: python3
+section-divs: false
+keep-md: true
+format: html
+---
+
+
+```{python}
+
+import yaml
+from IPython.display import display, Markdown, HTML
+
+# Function to generate a download button
+def button(url, text, icon):
+    icon_base = icon[:2]
+    return f"""<a class="btn btn-outline-dark btn-sm", href="{url}" target="_blank" rel="noopener noreferrer">
+        <i class="{icon_base} {icon}" role='img' aria-label='{text}'></i>
+        {text}
+    </a>"""
+
+# Load the YAML data for datasets
+yaml_data = yaml.safe_load(open("datasets.yaml"))
+
+datasets_strs = {"datasets": {}}
+
+# Iterate through the YAML data to generate the formatted strings
+for _, data in yaml_data.items():
+    title_str = data["title"]
+    year_str = data["year"]
+    description_str = data["description"]
+    link_str = data["link"]
+    doi_str = data["doi"]  # Get DOI
+    citation_str = data["citation"]
+    
+    # Generate button for dataset link
+    buttons = []
+    buttons.append(button(link_str, "Download Dataset", "bi-download"))
+    
+    # Display the title in bold and other information
+    dataset_str = f'<strong>{title_str}</strong> ({year_str})'
+    
+    # Adding dataset information (without the license field)
+    dataset_str += f"<br><strong>DOI:</strong> <a href='https://doi.org/{doi_str}' target='_blank'>{doi_str}</a>"
+    
+    # Adding a line break before the description
+    dataset_str += f"<br><strong>Description:</strong><br>{description_str}"
+    
+    # Adding citation
+    dataset_str += f"<br><strong>Citation:</strong><br>{citation_str}"
+    
+    # Add buttons and final dataset information to the list
+    if year_str not in datasets_strs["datasets"]:
+        datasets_strs["datasets"][year_str] = []
+    
+    datasets_strs["datasets"][year_str].append(
+        "<li class='list-group-item'>" + dataset_str + "<br>" + " ".join(buttons) + "</li>"
+    )
+```
+
+```{python}
+#| label: "published-year"
+#| id: "published-year"
+#| output: asis
+
+## Displaying datasets by year
+for year in sorted(datasets_strs["datasets"].keys(), reverse=True):
+    display(Markdown(f"### {year}"))  # Display the year as a heading
+    display(HTML(
+        "<ul class='list-group list-group-flush'>" + '\n'.join(datasets_strs["datasets"][year]) + "</ul>"
+    ))  # Display the dataset list for that year
+
+```

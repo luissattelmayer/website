@@ -1,0 +1,27 @@
+---
+title: "Luis Sattelmayer"
+image: photo_luis.JPG
+toc: false
+about: 
+  template: trestles
+  image-width: 20em
+  links: 
+    - icon: github
+      href: https://github.com/luissattelmayer
+    - icon: envelope
+      href: luis.sattelmayer@sciencespo.fr
+    - icon: linkedin
+      href: https://www.linkedin.com/in/luis-sattelmayer-8a293722b/
+    - text: "{{< fa brands bluesky >}}"
+      href: https://bsky.app/profile/luissattelmayer.bsky.social
+---
+
+<meta name="google-site-verification" content="nT0SX1PlQLGWz-Q1XWn1nyNICGJGAFfllGEKpKLMyow" />
+
+I am a Ph.D. candidate in Political Science at the [Center for European Studies and Comparative Politics](https://www.sciencespo.fr/centre-etudes-europeennes/en/) at Sciences Po Paris. My work is supervised by Jan Rovny and I plan to finish my dissertation by March 2026. I hold a Master's and a Bachelor's degree in Political Science and Political Humanities, both from Sciences Po Paris.
+
+In my research, I focus on party competition and political conflict in Western Europe, with a special emphasis on the role of party communication, party positions, and issue salience in shaping voter behavior and the fortunes of political parties. My dissertation explores the decline of former mainstream parties of the center-left and center-right, analyzing how their strategies and communication, especially towards the far-right and the issue of immigration, have influenced their electoral support in recent years. My research has been or will be published in various journals, including the *American Political Science Review* and *Party Politics*.
+
+Methodologically, I am very geeky about computational methods, which I use to collect and analyze large-scale text and visual data from all sorts of public and political actors, including parties and politicians, individuals, and media outlets. I am especially interested in finding new ways to measure social science concepts in large data sources, such as social media platforms, as well as traditional media like newspapers and TV broadcasts.
+
+During my time as a doctoral candidate, I also held visiting positions at the **Wissenschaftszentrum Berlin für Sozialforschung** (WZB) and the **Centre Marc Bloch**. I have also had the opportunity to teach various courses at Sciences Po, both substantive and methodological, for Bachelor's and Master's students, as well as at the PhD level in political science and sociology. You can find more information about my teaching [here](teaching.qmd).

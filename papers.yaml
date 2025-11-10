@@ -1,0 +1,53 @@
+
+symbolic:
+  title: "More than Symbols: the Effect of Symbolic Policies on Climate Policy Support"
+  authors:
+    - Théodore Tallent
+    - Malo Jan
+    - Luis Sattelmayer
+  year: 2025
+  preprint: https://osf.io/preprints/osf/qjg85
+  venue: Conditionally Accepted at the American Political Science Review
+
+partysome:
+  title: "PartySOME: a new comprehensive dataset on party activy on social media"
+  authors:
+    - Malo Jan
+    - Luis Sattelmayer
+  year: 2025
+  venue: Party Politics
+  github: https://github.com/malojan/partysome
+  published_url: https://doi.org/10.1177/13540688251388763
+  
+
+frontrep:
+  title: "Picking Up The Cordon Sanitaire: Investigating strategic voting against the far-right in the 2024 French legislative elections"
+  authors: 
+    - Malo Jan
+    - Luis Sattelmayer
+  venue: Under Review at Electoral Studies
+  
+partysome_2:
+  title: "PartySOME II: A Comprehensive Dataset on Issue Salience of Political Parties on Social Media"
+  authors:
+    - Malo Jan
+    - Luis Sattelmayer
+
+diversity:
+  title: "Diversity and Democracy: Muslim Minorities and the Support for Democracy in Western Europe"
+  authors:
+    - Jan Rovny
+    - Elena Cossu
+    - Luis Sattelmayer
+
+
+gender: 
+  title: "Explaining women’s descriptive representation in visual party communication in 38 countries"
+  authors: 
+    - Malo Jan
+    - Noémie Piolat
+    - Luis Sattelmayer
+    
+
+
+
