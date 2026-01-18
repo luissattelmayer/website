@@ -1,6 +1,6 @@
 
 partysome:
-  title: "PartySOME: a new comprehensive dataset on party activy on social media"
+  title: "PartySOME: A comprehensive dataset on political parties’ SOcial MEdia activity"
   description: "Data on the social media activity of 498 political parties across 37 countries on four platforms, Facebook, Instagram, Twitter, and YouTube, from account creation to the end of 2023. The dataset provides rich aggregated data on posting volume and timing, enabling the study of long-term patterns in platform adoption, communicative patterns and parties’ online activity."
   authors:
     - Malo Jan

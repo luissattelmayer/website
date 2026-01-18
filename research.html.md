@@ -38,7 +38,7 @@ toc: false
 <li class='list-group-item'>Malo Jan and Luis Sattelmayer. (2025) "Picking Up The Cordon Sanitaire: Investigating strategic voting against the far-right in the 2024 French legislative elections." <em>Under Review at Electoral Studies</em><br></li>
 <li class='list-group-item'>Malo Jan and Luis Sattelmayer. (2025) "PartySOME II: A Comprehensive Dataset on Issue Salience of Political Parties on Social Media."<br></li>
 <li class='list-group-item'>Jan Rovny, Elena Cossu, and Luis Sattelmayer. (2025) "Diversity and Democracy: Muslim Minorities and the Support for Democracy in Western Europe."<br></li>
-<li class='list-group-item'>Malo Jan, Noémie Piolat, and Luis Sattelmayer. (2025) "Explaining women’s descriptive representation in visual party communication in 38 countries."<br></li></ul>
+<li class='list-group-item'>Malo Jan, Noémie Piolat, and Luis Sattelmayer. (2025) "Not in the Picture: Explaining women’s descriptive representation in visual party communication in 38 countries."<br></li></ul>
 ```
 :::
 

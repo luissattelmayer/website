@@ -25,6 +25,7 @@ frontrep:
   authors: 
     - Malo Jan
     - Luis Sattelmayer
+  year: 2025
   venue: Under Review at Electoral Studies
   
 partysome_2:
@@ -32,21 +33,25 @@ partysome_2:
   authors:
     - Malo Jan
     - Luis Sattelmayer
-
+  year: 2025
+    
 diversity:
   title: "Diversity and Democracy: Muslim Minorities and the Support for Democracy in Western Europe"
   authors:
     - Jan Rovny
     - Elena Cossu
     - Luis Sattelmayer
+  year: 2025
 
 
 gender: 
-  title: "Explaining women’s descriptive representation in visual party communication in 38 countries"
+  title: "Not in the Picture: Explaining women’s descriptive representation in visual party communication in 38 countries"
   authors: 
     - Malo Jan
     - Noémie Piolat
     - Luis Sattelmayer
+  year: 2025
+
     
 
 

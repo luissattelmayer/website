@@ -1,24 +1,24 @@
 
 intro_css2:
-  title: "Computational Social Sciences"
+  title: "Computational Social Science"
   semester: "Summer"
   institution: "SciencesPo Paris"
   year: 2025
   syllabus: "documents/css_syllabus.pdf"
   materials: "https://github.com/luissattelmayer/intro-css"
-  language: "French"
+  language: "English"
   hours: 24 
   level: "PhD students + Master"
   description: "This course is an introduction to computational social sciences covering web scraping, how to convert texts into numbers, supervised and unsupervised machine learning as well as an introduction to LLMs."
 
 intro_css:
-  title: "Computational Social Sciences"
+  title: "Computational Social Science"
   semester: "Winter"
   institution: "SciencesPo Paris"
   year: 2025
   syllabus: "documents/css_syllabus.pdf"
   materials: "https://github.com/luissattelmayer/intro-css"
-  language: "French"
+  language: "English"
   hours: 24 
   level: "PhD students + Master"
   description: "This course is an introduction to computational social sciences covering web scraping, how to convert texts into numbers, supervised and unsupervised machine learning as well as an introduction to LLMs."
