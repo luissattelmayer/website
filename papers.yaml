@@ -5,9 +5,9 @@ symbolic:
     - Théodore Tallent
     - Malo Jan
     - Luis Sattelmayer
-  year: 2025
-  preprint: https://osf.io/preprints/osf/qjg85
-  venue: Conditionally Accepted at the American Political Science Review
+  year: 2026
+  published_url: https://www.cambridge.org/core/journals/american-political-science-review/article/more-than-symbols-the-effect-of-symbolic-policies-on-climate-policy-support/0696A233FB56D440A47A15E2EBB958E7
+  venue: American Political Science Review
 
 partysome:
   title: "PartySOME: a new comprehensive dataset on party activy on social media"
@@ -26,8 +26,7 @@ frontrep:
     - Malo Jan
     - Luis Sattelmayer
   year: 2025
-  venue: Under Review at Electoral Studies
-  
+
 partysome_2:
   title: "PartySOME II: A Comprehensive Dataset on Issue Salience of Political Parties on Social Media"
   authors:
