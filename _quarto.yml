@@ -36,7 +36,9 @@ format:
     toc: true
     include-in-header:
       - text: |
+          <meta name="description" content="Luis Sattelmayer, postdoctoral researcher in political science at the University of Innsbruck. Party competition, far-right parties, immigration, and computational text analysis.">
           <meta name="google-site-verification" content="google8bdaae59e2cea657">
+          <meta name="google-site-verification" content="nT0SX1PlQLGWz-Q1XWn1nyNICGJGAFfllGEKpKLMyow">
           <script type="application/ld+json">
           {
             "@context": "https://schema.org",

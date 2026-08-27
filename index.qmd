@@ -16,8 +16,6 @@ about:
       href: https://bsky.app/profile/luissattelmayer.bsky.social
 ---
 
-<meta name="google-site-verification" content="nT0SX1PlQLGWz-Q1XWn1nyNICGJGAFfllGEKpKLMyow" />
-
 I am a Postdoctoral Researcher in Political Science at the [University of Innsbruck](https://www.uibk.ac.at/de/politikwissenschaft/), working on the *Group Appeals in Electoral and Parliamentary Debates* (GAEPD) project. Previously, I received my PhD from the [Center for European Studies and Comparative Politics](https://www.sciencespo.fr/centre-etudes-europeennes/en/) at Sciences Po Paris. 
 
 In my research, I focus on party competition and political conflict in Western Europe, with a special emphasis on the role of party communication, party positions, and issue salience in shaping voter behavior and the fortunes of political parties. In my dissertation I explored the decline of former mainstream parties of the center-left and center-right, analyzing how their strategies and communication, especially towards the far-right and the issue of immigration, have influenced their electoral support in recent years. My research has been published in various journals, including the *American Political Science Review* and *Party Politics*.
